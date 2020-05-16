@@ -1,5 +1,5 @@
 module "rabbitmq" {
-  source          = "git::https://chandralekha882:Opcqa123!@github.com/chandralek/modules.git//mongodb"
+  source          = "git::https://chandralekha882:Opcqa123!@github.com/chandralek/modules.git//rabbitmq"
   VPC_ID          = data.terraform_remote_state.VPC.outputs.VPC_ID
   MGMT_VPC_ID     = data.terraform_remote_state.VPC.outputs.MGMT_VPC_ID
   PRIVATE_SUBNETS = data.terraform_remote_state.VPC.outputs.PRIVATE_SUBNETS
