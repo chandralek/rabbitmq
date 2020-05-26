@@ -12,6 +12,6 @@ module "rabbitmq" {
   SSH_PSW         = var.SSH_PSW
   GIT_USR         = var.GIT_USR
   GIT_PSW         = var.GIT_PSW
-  RUSERNAME       = var.R_USR
-  RPASSWORD       = var.R_PSW
+  R_USR       = var.R_USR
+  R_PSW       = var.R_PSW
 }
